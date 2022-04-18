@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h2 {
+    margin-bottom: 32px;
+    padding-left: 8px;
+    border-left: 5px solid #F32671;
+}
+
+header {
+    padding: 8px 24px;
+    background-color: rgb(41, 41, 41);
+
+    
+}
+
+header .container {
+    
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 8px
+    
+}
+    
+
+header img {
+    width: 180px;
+}
+
+header ul {
+    list-style: none;
+    
+    display: flex;
+}
+
+header ul li + li {
+
+    margin-left: 24px;
+}
+
+header a {
+    color: rgb(245, 213, 219);
+    transition: color 0.2s;
+}
+
+header a:hover {
+
+    color: #F32671;
+
+
+}
+
+.hero {
+    background-image: url(123.jpeg);
+    height: 200px;
+    padding: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero h1 {
+    color: rgb(245, 213, 219);
+    font-size: 36px;
+
+}
+
+.gallery {
+    max-width: 1200px;
+    padding: 0 24;
+    margin: 64px auto 0;
+    
+}
+
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gallery-row div {
+    flex: 1 1 250px;
+
+}
+
+.gallery-row img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+
+}
+
+.gallery p {
+    font-weight: bold;
+}
+
+.history {
+    margin: 64px 0 0px;
+    padding: 92px 24px 0;
+    background-color: rgb(41, 41, 41);
+    color: rgb(245, 213, 219);
+
+    border-top: 4px solid #F32671;
+
+}
+
+.history .container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+   display: flex;
+   align-items: center;
+    flex-wrap: wrap;
+   gap: 24px;
+}
+
+.history .container .col {
+
+    flex: 1 1 350px;
+
+}
+
+.history p {
+    line-height: 1.2;
+
+}
+
+.history p + p {
+    margin-top: 24px;
+    color: #F32671;
+}
+.history .container .col img {
+    width: 100%;
+
+
+}
+
+footer {
+    padding: 64px 24px;
+    background-color: rgb(41, 41, 41);
+    color: #F32671;
+    text-align: center;
+    
+}
+
+footer a {
+    color: aliceblue;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #F32671;
+    
+}
